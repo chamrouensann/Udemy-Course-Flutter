@@ -15,10 +15,17 @@ void main() {
       ),
       body: Center(
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            Text("I love App Development and Cambodia"),
             Text("I love App Development."),
-            Text("I love App Development."),
+            RaisedButton(
+              onPressed: () {},
+              child: Text("Login"),
+              color: Colors.redAccent,
+              splashColor: Colors.blue,
+            ),
           ],
         ),
       ),
