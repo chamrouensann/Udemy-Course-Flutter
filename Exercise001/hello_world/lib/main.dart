@@ -13,6 +13,15 @@ void main() {
         title: Text("Flutter"),
         backgroundColor: Colors.red,
       ),
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            Text("I love App Development."),
+            Text("I love App Development."),
+          ],
+        ),
+      ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         child: Icon(
